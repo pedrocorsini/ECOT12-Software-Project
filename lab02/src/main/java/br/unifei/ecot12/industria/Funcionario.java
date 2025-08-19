@@ -39,6 +39,4 @@ public class Funcionario {
     public void setDepartamento(Departamento departamento) {
         this.departamento = departamento;
     }
-
-    
 }

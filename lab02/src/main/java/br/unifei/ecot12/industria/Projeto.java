@@ -10,7 +10,6 @@ public class Projeto {
     private Departamento departamento;
     private List<Componente> componentes = new ArrayList<Componente>();
 
-
     public int getNumero() {
         return numero;
     }

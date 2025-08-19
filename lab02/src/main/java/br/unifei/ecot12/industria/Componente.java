@@ -29,8 +29,5 @@ public class Componente {
     }
     public void setProjeto(Projeto projeto) {
         this.projeto = projeto;
-    }
-    
-
-    
+    }  
 }
