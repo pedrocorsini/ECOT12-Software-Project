@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # Software Project Lab
 
+=======
+>>>>>>> 8d670b2db733b1f1e767ef8dfd132f79d096a4a2
 # Software Project Lab 🚀
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/pedrocorsini/ecot12?style=for-the-badge)
@@ -33,4 +36,8 @@ ECOT12/
 │  │        ├─ Main.java
 │  │        └─ Projeto.java
 └── ...
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 8d670b2db733b1f1e767ef8dfd132f79d096a4a2
