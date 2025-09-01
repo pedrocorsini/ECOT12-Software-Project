@@ -1,9 +1,26 @@
 package br.edu.unifei.ecot12.naruto;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Ser {
     private String nome;
     private String apelido;
     private int chakra;
+    private List<Jutsu> jutsus = new ArrayList<Jutsu>();
+    private EntidadePolitica governa;
+    public EntidadePolitica getGoverna() {
+        return governa;
+    }
+    public void setGoverna(EntidadePolitica governa) {
+        this.governa = governa;
+    }
+    public List<Jutsu> getJutsus() {
+        return jutsus;
+    }
+    public void setJutsus(List<Jutsu> jutsus) {
+        this.jutsus = jutsus;
+    }
     public String getNome() {
         return nome;
     }
