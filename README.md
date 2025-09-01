@@ -1,3 +1,10 @@
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+# Software Project Lab
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 # Software Project Lab 🚀
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/pedrocorsini/ecot12?style=for-the-badge)
@@ -32,3 +39,10 @@ ECOT12/
 │  │        └─ Projeto.java
 └── ...
 ```
+<<<<<<< Updated upstream
+=======
+=======
+# Software Project Lab
+>>>>>>> e86c8436a6a017d41db3c7caabc1fd4062d170ce
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
