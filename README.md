@@ -1,5 +1,3 @@
-# Software Project Lab
-
 # Software Project Lab 🚀
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/pedrocorsini/ecot12?style=for-the-badge)
