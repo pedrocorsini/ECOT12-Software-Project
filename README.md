@@ -1,6 +1,5 @@
 # Software Project Lab 🚀
 
-![GitHub repo size](https://img.shields.io/github/repo-size/pedrocorsini/ecot12?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/pedrocorsini/ecot12?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/pedrocorsini/ecot12?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/pedrocorsini/ecot12?style=for-the-badge)
