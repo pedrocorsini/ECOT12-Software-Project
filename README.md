@@ -1,1 +1,1 @@
-"# Spider-Verse" 
+# Spider-Verse
