@@ -11,7 +11,7 @@ public class Circuito extends Elemento{
     public int totalElementos() {
         int soma = 1;
         for(Elemento e : elementos){
-            System.out.println(e);
+            //System.out.println(e);
             soma += e.totalElementos();
         }
         return soma;

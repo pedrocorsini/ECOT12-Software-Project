@@ -17,6 +17,6 @@ public class App {
         c1.getElementos().add(c12);
         c1.getElementos().add(c13);
         System.out.println(c1.totalElementos());
-
+        System.out.println(c11.totalElementos());
     }
 }
