@@ -25,7 +25,8 @@ This repository was created as a **first Java project**, aiming to explore **Obj
 ## 📂 Repository Structure
 
 ```plaintext
-Thor-Verse/
+ECOT12-Software-Project/
+├── assets                            # Assets folder
 ├── src/
 │   └── main/
 │       └── java/
@@ -38,9 +39,9 @@ Thor-Verse/
 │                       └── spider/
 │                       └── thor/
 ├── .gitignore                        # Git ignore file
+├── LICENSE                           # MIT Student License
 ├── README.md                         # Project documentation
 ├── pom.xml                           # Maven configuration file
-├── thor-verse-diagram.dia            # Diagram source file (Dia)
 └── thor-verse-diagram.png            # Exported diagram image
 ```
 
