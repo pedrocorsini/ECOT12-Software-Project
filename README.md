@@ -31,8 +31,12 @@ Thor-Verse/
 │       └── java/
 │           └── br/
 │               └── eng/
-│                   └── corsini/
-│                       └── thor/     # Java classes of the project
+│                   └── corsini/ # Java packages of the project
+│                       └── eletrica/     
+│                       └── industria/
+│                       └── naruto/
+│                       └── spider/
+│                       └── thor/
 ├── .gitignore                        # Git ignore file
 ├── README.md                         # Project documentation
 ├── pom.xml                           # Maven configuration file
