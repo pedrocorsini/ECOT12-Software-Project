@@ -55,7 +55,7 @@ Thor-Verse/
 
 The following diagram represents the structure of the project: (will be constantly updated)
 
-![Thor-Verse Diagram](thor-verse-diagram.png)
+<img src="assets/thor-verse-diagram.png" alt="thor-verse">
 
 ---
 
