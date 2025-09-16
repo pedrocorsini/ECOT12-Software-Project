@@ -5,7 +5,6 @@ import java.util.Date;
 public abstract class Mortal extends Ser {
     private Date nascimento;
     private Divindade hospeda;
-    
     public Date getNascimento() {
         return nascimento;
     }

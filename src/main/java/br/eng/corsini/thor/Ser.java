@@ -5,10 +5,24 @@ import java.util.List;
 
 public abstract class Ser {
     private String nome;
+    private String sexo;
     private boolean vivo;
-    private String moradia;
     private List<Ser> filhos = new ArrayList<Ser>();
+    private List<Artefato> artefatos = new ArrayList<Artefato>();
+    private Territorio mora;
     
+    public List<Artefato> getArtefatos() {
+        return artefatos;
+    }
+    public void setArtefatos(List<Artefato> artefatos) {
+        this.artefatos = artefatos;
+    }
+    public Territorio getMora() {
+        return mora;
+    }
+    public void setMora(Territorio mora) {
+        this.mora = mora;
+    }
     public String getNome() {
         return nome;
     }
@@ -21,17 +35,17 @@ public abstract class Ser {
     public void setVivo(boolean vivo) {
         this.vivo = vivo;
     }
-    public String getMoradia() {
-        return moradia;
-    }
-    public void setMoradia(String moradia) {
-        this.moradia = moradia;
-    }
     public List<Ser> getFilhos() {
         return filhos;
     }
     public void setFilhos(List<Ser> filhos) {
         this.filhos = filhos;
+    }
+    public String getSexo() {
+        return sexo;
+    }
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
     
 }
