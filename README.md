@@ -41,8 +41,8 @@ ECOT12-Software-Project/
 ├── .gitignore                        # Git ignore file
 ├── LICENSE                           # MIT Student License
 ├── README.md                         # Project documentation
-├── pom.xml                           # Maven configuration file
-└── thor-verse-diagram.png            # Exported diagram image
+└── pom.xml                           # Maven configuration file
+
 ```
 
 ---
