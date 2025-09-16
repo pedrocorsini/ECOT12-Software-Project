@@ -23,6 +23,10 @@ This repository was created as a **first Java project**, aiming to explore **Obj
 
 ```plaintext
 Thor-Verse/
+├── assets/  
+│   └── thor-verse-diagram.dia        # Diagram source file (Dia)
+│   └── thor-verse-diagram.png        # Exported diagram image
+│   └── universe-description.txt      # Description of thor-verse
 ├── src/
 │   └── main/
 │       └── java/
@@ -32,9 +36,8 @@ Thor-Verse/
 │                       └── thor/     # Java classes of the project
 ├── .gitignore                        # Git ignore file
 ├── README.md                         # Project documentation
-├── pom.xml                           # Maven configuration file
-├── thor-verse-diagram.dia            # Diagram source file (Dia)
-└── thor-verse-diagram.png            # Exported diagram image
+├── LICENSE                           # MIT Student License 
+└── pom.xml                           # Maven configuration file
 ```
 
 ---
