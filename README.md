@@ -1,15 +1,16 @@
+# ⚡ Software Project
 
 ![GitHub contributors](https://img.shields.io/github/contributors/pedrocorsini/ecot12?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/pedrocorsini/ecot12?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/pedrocorsini/ecot12?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-learning-blue?style=for-the-badge)
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Status](https://img.shields.io/badge/status-learning-blue?style=for-the-badge)
 
-Welcome to **Thor-Verse**, a learning project developed in **Java**.  
-This repository was created as a **first Java project**, aiming to explore **Object-Oriented Programming (OOP)** concepts and practice fundamental software development skills. It is about the nordic mithology involving Thor and other epic gods.
+Welcome to **ECOT12 Software Project**, a learning project developed in **Java**.  
+This repository was created as a **first Java project**, aiming to explore **Object-Oriented Programming (OOP)** concepts and practice fundamental software development skills. 
 
 ---
 
@@ -24,18 +25,23 @@ This repository was created as a **first Java project**, aiming to explore **Obj
 ## 📂 Repository Structure
 
 ```plaintext
-Thor-Verse/
+ECOT12-Software-Project/
+├── assets                            # Assets folder
 ├── src/
 │   └── main/
 │       └── java/
 │           └── br/
 │               └── eng/
-│                   └── corsini/
-│                       └── thor/     # Java classes of the project
+│                   └── corsini/ # Java packages of the project
+│                       └── eletrica/     
+│                       └── industria/
+│                       └── naruto/
+│                       └── spider/
+│                       └── thor/
 ├── .gitignore                        # Git ignore file
+├── LICENSE                           # MIT Student License
 ├── README.md                         # Project documentation
 ├── pom.xml                           # Maven configuration file
-├── thor-verse-diagram.dia            # Diagram source file (Dia)
 └── thor-verse-diagram.png            # Exported diagram image
 ```
 
@@ -54,26 +60,31 @@ Thor-Verse/
 
 The following diagram represents the structure of the project: (will be constantly updated)
 
-![Thor-Verse Diagram](thor-verse-diagram.png)
+<img src="assets/thor-verse-diagram.png" alt="thor-verse">
 
 ---
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
+1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/thor-verse.git
-   cd thor-verse
+   git clone https://github.com/pedrocorsini/ECOT12-Software-Project.git
    ```
-
-2. Build the project using Maven:
+2. **Switch to the branch**
    ```bash
-   mvn clean install
+   git checkout <branch-name>
    ```
-
-3. Run the application (example):
+3. **Pull the lastest changes**
    ```bash
-   mvn exec:java -Dexec.mainClass="br.eng.corsini.thor.Main"
+   git pull origin <branch-name>
+   ```
+4. **Compile the project**
+   ```bash
+   mvn clean compile
+   ```
+5. **Run the project**
+   ```bash
+   mvn exec:java -Dexec.mainClass="<package-name>.<MainClass>"
    ```
 
 ---
