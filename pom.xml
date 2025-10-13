@@ -4,8 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
     <groupId>br.eng.corsini.lab08</groupId>
     <artifactId>lab08-ecot12</artifactId>
+=======
+    <groupId>br.eng.corsini.thor</groupId>
+    <artifactId>thor-verse</artifactId>
+>>>>>>> f62cd327fc0b403618ea428471679a29ade35eaa
     <version>1.0-SNAPSHOT</version>
 
     <properties>
