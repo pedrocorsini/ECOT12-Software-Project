@@ -1,4 +1,4 @@
-package br.eng.corsini.lab08.gourmet;
+package br.eng.corsini.gourmet;
 
 public class Main {
     public static void main(String[] args) {

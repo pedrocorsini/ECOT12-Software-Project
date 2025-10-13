@@ -1,4 +1,4 @@
-package br.eng.corsini.lab08.gourmet;
+package br.eng.corsini.gourmet;
 
 public class Receita {
     private String nome;
