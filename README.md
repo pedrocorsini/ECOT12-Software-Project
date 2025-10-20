@@ -33,11 +33,15 @@ ECOT12-Software-Project/
 │           └── br/
 │               └── eng/
 │                   └── corsini/ # Java packages of the project
-│                       └── eletrica/     
-│                       └── industria/
-│                       └── naruto/
-│                       └── spider/
-│                       └── thor/
+│                       ├── biblia/
+│                       ├── clonagem/
+│                       ├── eletrica/ 
+│                       ├── gourmet/    
+│                       ├── industria/
+│                       ├── linguagem/
+│                       ├── naruto/
+│                       ├── spider/
+│                       └── thor/   
 ├── .gitignore                        # Git ignore file
 ├── LICENSE                           # MIT Student License
 ├── README.md                         # Project documentation

@@ -1,6 +1,6 @@
 package br.eng.corsini.clonagem;
 
-public class Moto implements Prototipo<Moto>{
+public class Moto implements Prototipo<Moto>, Igualdade<Moto>{
     private String marca;
     private float cilindrada;
     public Moto clone(){
@@ -9,6 +9,10 @@ public class Moto implements Prototipo<Moto>{
         m.cilindrada = this.cilindrada;
         return m;   
     }
+    public boolean isEqual(Moto obj){
+        return this.marca.equals(obj.marca) && this.cilindrada==obj.cilindrada;
+    }
+
     public String getMarca() {
         return marca;
     }
@@ -23,5 +27,3 @@ public class Moto implements Prototipo<Moto>{
     }
     
 }
-    
-

@@ -13,6 +13,14 @@ public class Carro implements Prototipo<Carro> {
         c.potencia = this.potencia;
         return c;
     }
+
+    public boolean isEqual(Carro obj){
+        return this.marca.equals(obj.marca) && 
+        this.modelo.equals(obj.modelo) && 
+        this.placa.equals(obj.placa) &&
+        this.potencia==obj.potencia;
+    }
+
     public String getMarca() {
         return marca;
     }
