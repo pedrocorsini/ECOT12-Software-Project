@@ -26,7 +26,6 @@ This repository was created as a **first Java project**, aiming to explore **Obj
 
 ```plaintext
 ECOT12-Software-Project/
-├── assets                            # Assets folder
 ├── src/
 │   └── main/
 │       └── java/
@@ -36,12 +35,14 @@ ECOT12-Software-Project/
 │                       ├── biblia/
 │                       ├── clonagem/
 │                       ├── eletrica/ 
-│                       ├── gourmet/    
+│                       ├── gourmet/   
+│                       ├── hulk/
 │                       ├── industria/
 │                       ├── linguagem/
 │                       ├── naruto/
 │                       ├── spider/
-│                       └── thor/   
+│                       └── thor/
+│       └── resources/                # Resources 
 ├── .gitignore                        # Git ignore file
 ├── LICENSE                           # MIT Student License
 ├── README.md                         # Project documentation
