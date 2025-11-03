@@ -64,7 +64,7 @@ ECOT12-Software-Project/
 
 The following diagram represents the structure of the project: (will be constantly updated)
 
-<img src="assets/thor-verse-diagram.png" alt="thor-verse">
+<img src="src/main/resources/thor-verse-diagram.png" alt="thor-verse">
 
 ---
 
